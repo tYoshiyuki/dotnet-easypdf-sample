@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BCL.easyPDF.PDFConverter.NetCore">
+      <HintPath>lib\BCL.easyPDF.PDFConverter.NetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BCL.easyPDF.PDFDocument.NetCore">
+      <HintPath>lib\BCL.easyPDF.PDFDocument.NetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BCL.easyPDF.PDFProcessor.NetCore">
+      <HintPath>lib\BCL.easyPDF.PDFProcessor.NetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="BCL.easyPDF.Printer.NetCore">
+      <HintPath>lib\BCL.easyPDF.Printer.NetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
